@@ -1,8 +1,8 @@
 import logo from "./k.png";
-import backend from "./backend.png";
-import creator from "./creator.png";
-import mobile from "./mobile.png";
-import web from "./web.png";
+import noSqlicon from "./noSql.svg";
+import jestIcon from "./jestIcon.svg";
+import reactIcon from "./react-2.svg";
+import web from "./nodejs.svg";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
@@ -32,9 +32,9 @@ import tripguide from "./tripguide.png";
 
 export {
   logo,
-  backend,
-  creator,
-  mobile,
+  noSqlicon,
+  jestIcon,
+  reactIcon,
   web,
   github,
   menu,

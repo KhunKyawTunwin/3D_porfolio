@@ -1,7 +1,7 @@
 import {
-  mobile,
-  backend,
-  creator,
+  reactIcon,
+  noSqlicon,
+  jestIcon,
   web,
   javascript,
   typescript,
@@ -42,20 +42,20 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Node Js Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
+    title: "React Developer",
+    icon: reactIcon,
   },
   {
-    title: "Backend Developer",
-    icon: backend,
+    title: "MongoDB Database",
+    icon: noSqlicon,
   },
   {
-    title: "Content Creator",
-    icon: creator,
+    title: "Unit Testing",
+    icon: jestIcon,
   },
 ];
 
@@ -117,7 +117,7 @@ const technologies = [
 const experiences = [
   {
     title: "React.js Developer",
-    company_name: "Starbucks",
+    company_name: "UpTech",
     icon: starbucks,
     iconBg: "#383E56",
     date: "March 2020 - April 2021",
@@ -129,8 +129,8 @@ const experiences = [
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
+    title: "Node Js Developer",
+    company_name: "ItVisionHub",
     icon: tesla,
     iconBg: "#E6DEDD",
     date: "Jan 2021 - Feb 2022",
