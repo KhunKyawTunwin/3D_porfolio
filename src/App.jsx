@@ -25,6 +25,7 @@ function App() {
         <Tech />
         <Works />
         <Feedbacks />
+
         <div className="relative z-o">
           <Contact />
           <StarsCanvas />
