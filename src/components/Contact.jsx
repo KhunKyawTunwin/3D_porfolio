@@ -47,14 +47,14 @@ const Contact = () => {
           </label>
           <label className="flex flex-col">
             <span className="text-white font-medium mb-4">
-              Example@gmail.com
+              Please Input Your Email
             </span>
             <input
               type="text"
               name="email"
               value={form.email}
               onChange={handleChange}
-              placeholder="Please Input Your Email"
+              placeholder="mrKhunExample@gmail.com"
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
             />
           </label>
