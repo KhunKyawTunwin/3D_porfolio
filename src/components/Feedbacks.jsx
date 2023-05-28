@@ -44,7 +44,7 @@ const FeedbackCard = ({
 
 const Feedbacks = () => {
   return (
-    <div className="mt-12 bg-black-100 rounded-[20px]">
+    <div className="mt-12 bg-violet-900 rounded-[20px]">
       <div
         className={`${styles.padding} bg-tertiary rounded-2xl min-h-[300px]`}
       >
@@ -54,7 +54,7 @@ const Feedbacks = () => {
         </motion.div>
       </div>
 
-      <div className={`${styles.paddingX} -mt-20 pb-14 flex flex-wrap gap-7`}>
+      <div className={`${styles.paddingX} -mt-20 pb-14 flex flex-wrap gap-4`}>
         {testimonials.map((testimonial, index) => (
           <FeedbackCard key={testimonial.name} index={index} {...testimonial} />
         ))}
