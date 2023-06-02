@@ -174,15 +174,15 @@ const testimonials = [
     testimonial:
       "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
     name: "Mr Yan Aung",
-    designation: "CFO",
-    company: "itVisionHub",
+    designation: "Founder",
+    company: "itVisionHub company limited",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
     testimonial:
       "I've never met a web developer who truly cares about their clients' success like Rick does.",
     name: "Mr Kyaw Swar Htet",
-    designation: "COO",
+    designation: "ItvisionHub",
     company: "Senior Developer",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
@@ -190,8 +190,8 @@ const testimonials = [
     testimonial:
       "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
     name: "Mr Kyaw Myo Htite",
-    designation: "CTO",
-    company: "456 Enterprises",
+    designation: "Senior Full stack Developer",
+    company: "AYA Bank",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];

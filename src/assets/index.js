@@ -1,4 +1,4 @@
-import logo from "./k.png";
+import logo from "./king.png";
 import noSqlicon from "./noSql.svg";
 import jestIcon from "./jestIcon.svg";
 import reactIcon from "./react-2.svg";
