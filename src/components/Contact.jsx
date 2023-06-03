@@ -8,9 +8,14 @@ import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
 // template_l7812zb
+// template_p0200a7
 // service_6bym423
 // service_vwuyhbe
+// service_hzw1doe
+// service_fvwuhsn
 // Public_Keys XwKR0IzvVA-XOckyO
+// XwKR0IzvVA-XOckyO
+// 87j7vX9SoT0tXkldt
 
 const Contact = () => {
   const formRef = useRef();
@@ -31,8 +36,8 @@ const Contact = () => {
     setLoading(true);
     try {
       await emailjs.send(
-        "service_vwuyhbe",
-        "template_l7812zb",
+        "service_fvwuhsn",
+        "template_p0200a7",
         {
           from_name: form.name,
           to_name: "KhunKyaw TunWin",
@@ -40,7 +45,7 @@ const Contact = () => {
           to_email: "kyawtunwin000782@gmail.com",
           message: form.message,
         },
-        "XwKR0IzvVA-XOckyO"
+        "87j7vX9SoT0tXkldt"
       );
       setLoading(false);
       alert("Thank you. I will get back to you as soon as possible.");
