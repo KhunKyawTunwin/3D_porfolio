@@ -9,6 +9,7 @@ import { slideIn } from "../utils/motion";
 
 // template_l7812zb
 // service_6bym423
+// service_vwuyhbe
 // Public_Keys XwKR0IzvVA-XOckyO
 
 const Contact = () => {
@@ -22,7 +23,6 @@ const Contact = () => {
 
   const handleChange = (e) => {
     const { name, value } = e.target;
-
     setFrom({ ...form, [name]: value });
   };
 
@@ -31,7 +31,7 @@ const Contact = () => {
     setLoading(true);
     try {
       await emailjs.send(
-        "service_6bym423",
+        "service_vwuyhbe",
         "template_l7812zb",
         {
           from_name: form.name,
@@ -52,9 +52,6 @@ const Contact = () => {
       });
     } catch (error) {
       setLoading(false);
-
-      console.log(error);
-
       alert("Something went wrong.");
     }
   };
