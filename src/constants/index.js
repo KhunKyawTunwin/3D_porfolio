@@ -14,7 +14,6 @@ import {
   mongodb,
   git,
   figma,
-  docker,
   carrent,
   cms,
   bankui,
@@ -108,10 +107,6 @@ const technologies = [
   {
     name: "figma",
     icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
   },
 ];
 
