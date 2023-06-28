@@ -20,8 +20,8 @@ import {
   tesla,
   shopify,
   carrent,
-  jobit,
-  tripguide,
+  cms,
+  bankui,
   threejs,
 } from "../assets";
 
@@ -198,66 +198,72 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "E-commerce app",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      " This project based course will introduce you to all of the modern toolchain of a React developer in 2023. Along the way, we will build a massive e-commerce application similar to Shopify using React, Redux, React Hooks, React Suspense, React Router, GraphQL, Context API, Firebase, Redux-Saga, Stripe + more. This is going to be a full stack app (MERN stack), using Firebase.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
-        color: "green-text-gradient",
+        name: "graphql",
+        color: "pink-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "firebase",
+        color: "green-text-gradient",
+      },
+
+      {
+        name: "sass",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/KhunKyawTunwin",
+    source_code_link:
+      "https://github.com/KhunKyawTunwin/02_Redux-Hooks-GraphQL-Stripe-Firebase",
   },
   {
-    name: "Job IT",
+    name: "Content Management Systems",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A content management system (CMS) helps companies manage digital content. Whole teams can use these systems to create, edit, organize, and publish content.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "vite plugin",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "tailwind css",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/KhunKyawTunwin",
+    image: cms,
+    source_code_link: "https://github.com/KhunKyawTunwin/korea-Food",
   },
   {
-    name: "Trip Guide",
+    name: "Bank and Payment UI UX Design",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A Payment processor manages the card transaction process by transmitting data from your customer's credit/debit card to your bank and the customer's bank.",
     tags: [
       {
-        name: "nextjs",
+        name: "rectjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "materialui",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "tailwind css",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: bankui,
     source_code_link: "https://github.com/KhunKyawTunwin",
   },
 ];

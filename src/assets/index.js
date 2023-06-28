@@ -27,8 +27,8 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import cms from "./cms.png";
+import bankui from "./bankui.png";
 
 export {
   logo,
@@ -57,6 +57,6 @@ export {
   starbucks,
   tesla,
   carrent,
-  jobit,
-  tripguide,
+  cms,
+  bankui,
 };
