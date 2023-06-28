@@ -240,7 +240,7 @@ const projects = [
       },
     ],
     image: cms,
-    source_code_link: "https://github.com/KhunKyawTunwin/korea-Food",
+    source_code_link: "https://omuk-myanmar.netlify.app/",
   },
 
   {
@@ -262,7 +262,7 @@ const projects = [
       },
     ],
     image: bankui,
-    source_code_link: "https://github.com/KhunKyawTunwin",
+    source_code_link: "https://banks-investment-payment.netlify.app/",
   },
 
   {
@@ -288,7 +288,7 @@ const projects = [
       },
     ],
     image: travelblog,
-    source_code_link: "https://github.com/KhunKyawTunwin/Travel-TourProjec",
+    source_code_link: "https://tour-traveller.netlify.app/",
   },
 
   {
@@ -318,7 +318,7 @@ const projects = [
       },
     ],
     image: education,
-    source_code_link: "https://github.com/KhunKyawTunwin",
+    source_code_link: "https://free-online-education.netlify.app/",
   },
 
   {
@@ -344,7 +344,7 @@ const projects = [
       },
     ],
     image: ecomerceproject,
-    source_code_link: "https://github.com/KhunKyawTunwin",
+    source_code_link: "https://ecommerce-full-respone.netlify.app/",
   },
 ];
 
