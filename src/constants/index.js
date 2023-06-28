@@ -15,14 +15,15 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
   carrent,
   cms,
   bankui,
   threejs,
+  travelblog,
+  education,
+  ecomerceproject,
+  itVisionHub,
+  UpTech,
 } from "../assets";
 
 export const navLinks = [
@@ -118,7 +119,7 @@ const experiences = [
   {
     title: "React.js Developer",
     company_name: "UpTech",
-    icon: starbucks,
+    icon: UpTech,
     iconBg: "#383E56",
     date: "March 2020 - April 2021",
     points: [
@@ -131,7 +132,7 @@ const experiences = [
   {
     title: "Node Js Developer",
     company_name: "ItVisionHub",
-    icon: tesla,
+    icon: itVisionHub,
     iconBg: "#E6DEDD",
     date: "Jan 2021 - Feb 2022",
     points: [
@@ -143,8 +144,8 @@ const experiences = [
   },
   {
     title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    company_name: "ItVisionHub",
+    icon: itVisionHub,
     iconBg: "#383E56",
     date: "Jan 2022 - Jan 2023",
     points: [
@@ -156,8 +157,8 @@ const experiences = [
   },
   {
     title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    company_name: "ItVisionHub",
+    icon: itVisionHub,
     iconBg: "#E6DEDD",
     date: "Jan 2023 - Present",
     points: [
@@ -224,6 +225,7 @@ const projects = [
     source_code_link:
       "https://github.com/KhunKyawTunwin/02_Redux-Hooks-GraphQL-Stripe-Firebase",
   },
+
   {
     name: "Content Management Systems",
     description:
@@ -245,6 +247,7 @@ const projects = [
     image: cms,
     source_code_link: "https://github.com/KhunKyawTunwin/korea-Food",
   },
+
   {
     name: "Bank and Payment UI UX Design",
     description:
@@ -264,6 +267,88 @@ const projects = [
       },
     ],
     image: bankui,
+    source_code_link: "https://github.com/KhunKyawTunwin",
+  },
+
+  {
+    name: "Travel Blog Website",
+    description:
+      "In this project, you'll use everything you've learned so far to create a travel website enticing viewers to visit an exotic locale.",
+    tags: [
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "framermotion",
+        color: "green-text-gradient",
+      },
+    ],
+    image: travelblog,
+    source_code_link: "https://github.com/KhunKyawTunwin/Travel-TourProjec",
+  },
+
+  {
+    name: "Free-Online-Education Website",
+    description:
+      "Build Responsive Online Course Websites With HTML CSS JavaScript | 5 Pages Educational Website. This website is Multi Page Website.",
+    tags: [
+      {
+        name: "javascript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "html",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "framermotion",
+        color: "green-text-gradient",
+      },
+      {
+        name: "swiper",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: education,
+    source_code_link: "https://github.com/KhunKyawTunwin",
+  },
+
+  {
+    name: "Ecommerce Project",
+    description:
+      "Ecommerce multi-page website using HTML, CSS, and javascript. Ecommerce website using html5, css3, and ES6 javascript.",
+    tags: [
+      {
+        name: "javasript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "html",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "swiper",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: ecomerceproject,
     source_code_link: "https://github.com/KhunKyawTunwin",
   },
 ];
