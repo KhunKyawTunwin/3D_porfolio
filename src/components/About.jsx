@@ -18,7 +18,11 @@ const ServiceCard = ({ index, title, icon }) => {
           options={{ max: 45, scale: 1, speed: 450 }}
           className="bg-tertiary rounded-[20px] py-4 px-12 min-h-[280px] flex justify-evenly items-center flex-col"
         >
-          <img src={icon} alt={title} className="w-16 h-16 object-contain" />
+          <img
+            src={icon}
+            alt={title}
+            className="w-16 h-16 bg-white rounded-full object-contain"
+          />
           <h3 className="text-white text-[20px] font-bold text-center">
             {title}
           </h3>
@@ -40,10 +44,12 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[16px] max-w-3xl leading-[30px]"
       >
-        I am a seasoned full-stack developer with a passion for creating robust
-        and dynamic web applications. With expertise in both front-end and
-        back-end development, I possess a comprehensive skill set that allows me
-        to tackle the entire software development process.
+        Hello! I am a passionate Backend Node js developer and currently working
+        at ITVisionHub.Pte., Ltd in Myanmar. With a strong background in
+        creating dynamic and user-friendly websites. I want to combine my
+        technical expertise with my creative and problem-solving skills to
+        deliver high quality and to help companies achieve their goals in
+        efficient web solutions.
         <br />
         Here's an overview of my experience and skills in Front-End Development:
         I am proficient in HTML, CSS, and JavaScript, with a strong

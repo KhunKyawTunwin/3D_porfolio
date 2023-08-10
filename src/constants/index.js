@@ -16,13 +16,15 @@ import {
   figma,
   carrent,
   cms,
+  express,
   bankui,
-  threejs,
   travelblog,
   education,
   ecomerceproject,
   itVisionHub,
   UpTech,
+  vercel,
+  netlify,
 } from "../assets";
 
 export const navLinks = [
@@ -44,6 +46,10 @@ const services = [
   {
     title: "Node Js Developer",
     icon: web,
+  },
+  {
+    title: "Nodejs FrameWrok ",
+    icon: express,
   },
   {
     title: "React Developer",
@@ -73,8 +79,13 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
+    name: "Node JS",
+    icon: nodejs,
+  },
+  { name: "Express JS", icon: express },
+  {
+    name: "MongoDB",
+    icon: mongodb,
   },
   {
     name: "React JS",
@@ -85,20 +96,12 @@ const technologies = [
     icon: redux,
   },
   {
+    name: "TypeScript",
+    icon: typescript,
+  },
+  {
     name: "Tailwind CSS",
     icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
   },
   {
     name: "git",
@@ -108,20 +111,29 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
+  {
+    name: "Vercel",
+    icon: vercel,
+  },
+  {
+    name: "Netlify",
+    icon: netlify,
+  },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "UpTech",
+    title: "WEB DEVELOPER( INTERNSHIP )",
+    company_name: "UpTech Co., Ltd | Yangon, Myanmar",
     icon: UpTech,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "March 2020 - Oct 2021",
     points: [
+      "Instructors shared with interns hands-on experience with RestApi, GraphQL, and WebSockets to build scalable and efficient applications.",
       "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Get a deep JavaScript / TypeScript knowledges and train to solve complex logical and mathematical problems.",
+      "Learn to work with popular databases like PostgreSQL, MongoDB, and Redis to handle complex data scenarios.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
@@ -178,8 +190,8 @@ const testimonials = [
     testimonial:
       "I've never met a web developer who truly cares about their clients' success like Khun does.",
     name: "Mr Kyaw Swar Htet",
-    designation: "ItvisionHub",
-    company: "Senior Developer",
+    designation: "Senior Full Stack Developer",
+    company: "ItvisionHub",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {

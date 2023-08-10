@@ -4,6 +4,7 @@ import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 import { testimonials } from "../constants";
+import { Link } from "react-router-dom";
 
 const FeedbackCard = ({
   index,
@@ -31,12 +32,13 @@ const FeedbackCard = ({
             {designation} of {company}
           </p>
         </div>
-
-        <img
-          src={image}
-          alt={`feedback-by-${name}`}
-          className="w-10 h-10 rounded-full object-cover"
-        />
+        <Link to={""} target="_blank">
+          <img
+            src={image}
+            alt={`feedback-by-${name}`}
+            className="w-10 h-10 rounded-full cursor-pointer object-cover"
+          />
+        </Link>
       </div>
     </div>
   </motion.div>

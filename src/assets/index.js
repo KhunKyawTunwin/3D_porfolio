@@ -2,10 +2,13 @@ import logo from "./king.png";
 import noSqlicon from "./noSql.svg";
 import jestIcon from "./jestIcon.svg";
 import reactIcon from "./react-2.svg";
+import express from "./express.svg";
 import web from "./nodejs.svg";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import vercel from "./vercel.svg";
+import netlify from "./netlify.svg";
 
 import css from "./tech/css.png";
 import figma from "./tech/figma.png";
@@ -18,7 +21,6 @@ import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
 
 import itVisionHub from "./company/itvisionhub.png";
 import UpTech from "./company/uptech.jpg";
@@ -39,6 +41,8 @@ export {
   github,
   menu,
   close,
+  vercel,
+  netlify,
   css,
   figma,
   git,
@@ -50,7 +54,7 @@ export {
   redux,
   tailwind,
   typescript,
-  threejs,
+  express,
   itVisionHub,
   UpTech,
   carrent,

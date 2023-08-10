@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
-import { ComputersCanvas } from "./canvas";
+// import { ComputersCanvas } from "./canvas";
 
 const Hero = () => {
   return (
@@ -10,22 +10,23 @@ const Hero = () => {
         className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5`}
       >
         <div className="flex flex-col justify-center items-center mt-5">
-          <div className="w-5 h-5 rounded-full bg-[#915eff]" />
+          <div className="w-5 h-5 rounded-full bg-[#6ac7f9]" />
           <div className="w-1 sm:h-80 h040 violet-gradient" />
         </div>
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className="text-[#9a0bff]">Khun</span>
+            Hi, I'm <span className="text-[#6ac7f9]">Khun</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop Media & Ecommerce website, user
+            I develop information-sharing website & Ecommerce website, user
+            interfaces and
             <br className="sm:block hidden" />
-            interfaces and web applications
+            web applications .🧑‍💻
           </p>
         </div>
       </div>
-      <ComputersCanvas />
+      {/* <ComputersCanvas /> */}
 
       <div className="absolute xs:botton-10 bottom-32 w-full flex justify-center items-center">
         <a href="#about">
