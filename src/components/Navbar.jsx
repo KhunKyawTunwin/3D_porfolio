@@ -24,7 +24,7 @@ const Navbar = () => {
           <img
             src={profile}
             alt="logoicon"
-            className="w-10 h-10 object-contain rounded-full"
+            className="w-10 h-10 object-contain rounded-full border-blue-500"
           />
           <p className="text-white text-[18px] font-bold cursor-pointer flex">
             Khun &nbsp;
