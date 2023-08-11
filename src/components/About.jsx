@@ -49,15 +49,19 @@ const About = () => {
         creating dynamic and user-friendly websites. I want to combine my
         technical expertise with my creative and problem-solving skills to
         deliver high quality and to help companies achieve their goals in
-        efficient web solutions.
+        efficient web solutions. I have 3+ years of hand on programming
+        experience and including 1.5 years of working experience.
+        <br />
         <br />
         Here's an overview of my experience and skills in Front-End Development:
         I am proficient in HTML, CSS, and JavaScript, with a strong
-        understanding of modern front-end frameworks such as React.js. Back-End
-        Development: I have extensive experience in server-side programming
-        languages such as Node.js.
+        understanding to create UI Components with javascript library such as
+        React.js. Back-End Development: I have extensive experience in
+        server-side programming languages such as Node.js.
+        <br />
         <br />I am skilled in using frameworks like Express.js to build scalable
-        and efficient back-end systems. I am proficient in database management,
+        I am skilled in using frameworks like Express.js to build scalable and
+        efficient back-end systems. I am proficient in database management,
         including designing schemas and writing optimized queries.
       </motion.p>
 

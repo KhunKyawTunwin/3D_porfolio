@@ -19,10 +19,12 @@ const Hero = () => {
             Hi, I'm <span className="text-[#6ac7f9]">Khun</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop information-sharing website & Ecommerce website, user
-            interfaces and
-            <br className="sm:block hidden" />
-            web applications .🧑‍💻
+            I am a passionate Backend Node js developer and currently working at
+            ITVisionHub.Pte., Ltd in Myanmar. With a strong background in
+            creating dynamic and user-friendly websites.
+            <br className="sm:block hidden" /> I develop information-sharing
+            website & Ecommerce website, user interfaces and web applications.
+            🧑‍💻
           </p>
         </div>
       </div>

@@ -127,7 +127,7 @@ const experiences = [
     company_name: "UpTech Co., Ltd | Yangon, Myanmar",
     icon: UpTech,
     iconBg: "#383E56",
-    date: "March 2020 - Oct 2021",
+    date: "April 2020 - Oct 2021",
     points: [
       "Instructors shared with interns hands-on experience with RestApi, GraphQL, and WebSockets to build scalable and efficient applications.",
       "Developing and maintaining web applications using React.js and other related technologies.",
@@ -141,7 +141,7 @@ const experiences = [
     company_name: "ItVisionHub",
     icon: itVisionHub,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "May 2021 - Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -154,7 +154,7 @@ const experiences = [
     company_name: "ItVisionHub",
     icon: itVisionHub,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "May 2021 - Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -167,7 +167,7 @@ const experiences = [
     company_name: "ItVisionHub",
     icon: itVisionHub,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "May 2021 - Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -180,27 +180,28 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Khun proved me wrong.",
-    name: "Mr Yan Aung",
-    designation: "Founder",
-    company: "itVisionHub company limited",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Khun does.",
-    name: "Mr Kyaw Swar Htet",
-    designation: "Senior Full Stack Developer",
-    company: "ItvisionHub",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      "I had the pleasure of working with Khun for six months internship program at Uptech Company. I would highly recommend him for the position of Full Stack Web Developer.In addition to his impressive work ethic, Khun is also a great team member, a natural leader and a humble employee. He has a great attitude and is always willing to help another colleague.",
     name: "Mr Kyaw Myo Htite",
     designation: "Senior Full stack Developer",
     company: "AYA Bank",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    // image: "/assets/person.gif",
+  },
+  {
+    testimonial:
+      "Khun Employee worked for me as a Junior full stack developer from May 2021 to Present. Like all developers, he wrote code for web applications. His responsibilities included requirements gathering, analysis and design of complex Web applications using a variety of technologies.This skill came in handy when he presented his programs to clients who weren't particularly tech-savvy.",
+    name: "Mr Yan Aung",
+    designation: "Founder",
+    company: "itVisionHub company limited",
+    // image: { person },
+  },
+  {
+    testimonial:
+      "I highly recommend Khun as a candidate for a full-stack developer. I have worked with Khun in Our company as my assistant junior from May - 2021 to the present.",
+    name: "Mr Kyaw Myo Htite",
+    name: "Mr Kyaw Swar Htet",
+    designation: "Senior Full Stack Developer",
+    company: "ItvisionHub",
+    // image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
 ];
 

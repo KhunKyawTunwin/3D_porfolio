@@ -21,7 +21,10 @@ const FeedbackCard = ({
     <p className="text-white font-black text-[25px]">"</p>
 
     <div className="mt-1">
-      <p className="text-white tracking-wider text-[18px]">{testimonial}</p>
+      <p className="text-white tracking-wider text-[18px]">
+        {testimonial.substring(0, 130)}{" "}
+        <span style={{ cursor: "pointer" }}>see more</span>
+      </p>
 
       <div className="mt-7 flex justify-between items-center gap-1">
         <div className="flex-1 flex flex-col">
@@ -34,7 +37,7 @@ const FeedbackCard = ({
         </div>
         <Link to={""} target="_blank">
           <img
-            src={image}
+            src="/person.gif"
             alt={`feedback-by-${name}`}
             className="w-10 h-10 rounded-full cursor-pointer object-cover"
           />
