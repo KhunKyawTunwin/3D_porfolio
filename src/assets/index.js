@@ -1,4 +1,5 @@
 import logo from "./king.png";
+import profile from "./profile.png";
 import noSqlicon from "./noSql.svg";
 import jestIcon from "./jestIcon.svg";
 import reactIcon from "./react-2.svg";
@@ -34,6 +35,7 @@ import ecomerceproject from "./ecomerceproject.png";
 
 export {
   logo,
+  profile,
   noSqlicon,
   jestIcon,
   reactIcon,
