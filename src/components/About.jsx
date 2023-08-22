@@ -44,13 +44,15 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[16px] max-w-3xl leading-[30px]"
       >
-        Hello! I am a passionate Backend Node js developer and currently working
-        at ITVisionHub.Pte., Ltd in Myanmar. With a strong background in
-        creating dynamic and user-friendly websites. I want to combine my
-        technical expertise with my creative and problem-solving skills to
-        deliver high quality and to help companies achieve their goals in
-        efficient web solutions. I have 3+ years of hand on programming
-        experience and including 1.5 years of working experience.
+        Hello! I am a passionate Backend Node js developer. I'm currently
+        working at ITVisionHub—Pte., Ltd in Myanmar with a strong background in
+        creating dynamic and user-friendly websites. I develop
+        information-sharing websites & E-commerce websites, user interfaces, and
+        web applications. I want to combine my technical expertise with my
+        creative and problem-solving skills to deliver high quality and to help
+        companies achieve their goals in efficient web solutions. I have 3+
+        years of hand on programming experience and including 1.5 years of
+        working experience.
         <br />
         <br />
         Here's an overview of my experience and skills in Front-End Development:
