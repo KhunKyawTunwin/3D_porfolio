@@ -44,27 +44,34 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[16px] max-w-3xl leading-[30px]"
       >
-        Hello! I am a passionate Backend Node js developer. I'm currently
-        working at ITVisionHub—Pte., Ltd in Myanmar with a strong background in
-        creating dynamic and user-friendly websites. I develop
-        information-sharing websites & E-commerce websites, user interfaces, and
-        web applications. I want to combine my technical expertise with my
-        creative and problem-solving skills to deliver high quality and to help
-        companies achieve their goals in efficient web solutions. I have 3+
-        years of hand on programming experience and including 1.5 years of
-        working experience.
+        I am writing to express my interest in the Full Stack Web Developer
+        position at ITVISIONHUB Co, Ltd. I am confident I can contribute
+        effectively to your team with a robust background in Node.js and
+        React.js development and hands-on experience building dynamic web
+        applications.
         <br />
         <br />
-        Here's an overview of my experience and skills in Front-End Development:
-        I am proficient in HTML, CSS, and JavaScript, with a strong
-        understanding to create UI Components with javascript library such as
-        React.js. Back-End Development: I have extensive experience in
-        server-side programming languages such as Node.js.
+        During my tenure at ITVISIONHUB Co., Ltd in Yangon, Myanmar, I gained
+        invaluable experience developing Learning Management Systems (LMS) and
+        information-sharing websites. My technical skills include proficiency in
+        JavaScript, Node.js, React.js, MongoDB, and other essential full-stack
+        development technologies and tools. At ITVISIONHUB, I played a key role
+        in developing an LMS platform. My responsibilities included implementing
+        user account management, defining training requirements, integrating
+        payment systems using Stripe.js, and ensuring a responsive design for
+        optimal user experience. Additionally, I improved Node.js performance
+        through load balancing, clustering, and optimization techniques,
+        enhancing web application performance.
         <br />
-        <br />I am skilled in using frameworks like Express.js to build scalable
-        I am skilled in using frameworks like Express.js to build scalable and
-        efficient back-end systems. I am proficient in database management,
-        including designing schemas and writing optimized queries.
+        <br />
+        My work on MYANFOBASE, a Myanmar information-sharing website, showcased
+        my expertise in both frontend and backend development. Utilizing
+        Next.js, Tailwind CSS, Express.js, and MongoDB, I created interactive,
+        user-friendly interfaces while ensuring seamless functionality across
+        the stack. I am particularly excited about the opportunity to bring my
+        technical skills and passion for web development.I am available for an
+        interview at your earliest convenience and can be reached via email at
+        khunkyaw.tunwin95dev@gmail.com or phone at +66 094 473 9608.
       </motion.p>
 
       <div className="mt-20 flex justify-center flex-wrap gap-8">

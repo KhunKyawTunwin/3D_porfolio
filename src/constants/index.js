@@ -127,7 +127,7 @@ const experiences = [
     company_name: "UpTech Co., Ltd | Yangon, Myanmar",
     icon: UpTech,
     iconBg: "#383E56",
-    date: "April 2020 - Oct 2021",
+    date: "April 2020 - Sept 2020",
     points: [
       "Instructors shared with interns hands-on experience with RestApi, GraphQL, and WebSockets to build scalable and efficient applications.",
       "Developing and maintaining web applications using React.js and other related technologies.",
@@ -138,15 +138,15 @@ const experiences = [
   },
   {
     title: "Node Js Developer",
-    company_name: "ItVisionHub",
+    company_name: "ITVISIONHUB Co, Ltd",
     icon: itVisionHub,
     iconBg: "#E6DEDD",
     date: "May 2021 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      `I am writing to express my interest in the Full Stack Web Developer position at ITVISIONHUB Co, Ltd. I am confident I can contribute effectively to your team with a robust background in Node.js and React.js development and hands-on experience building dynamic web applications.`,
+      `During my tenure at ITVISIONHUB Co., Ltd in Yangon, Myanmar, I gained invaluable experience developing Learning Management Systems (LMS) and information-sharing websites. My technical skills include proficiency in JavaScript, Node.js, React.js, MongoDB, and other essential full-stack development technologies and tools.`,
+      `Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.`,
     ],
   },
   {
